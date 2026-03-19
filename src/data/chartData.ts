@@ -28,10 +28,10 @@ export const adoptionDriversData = [
 ]
 
 export const capabilityData = [
-  { dimension: 'Reasoning', open: 82, closed: 90 },
-  { dimension: 'Code Gen', open: 88, closed: 92 },
-  { dimension: 'Cost Efficiency', open: 95, closed: 18 },
-  { dimension: 'Data Sovereignty', open: 95, closed: 30 },
-  { dimension: 'Customization', open: 90, closed: 25 },
-  { dimension: 'Multilingual', open: 85, closed: 88 },
+  { dimension: 'Reasoning', open: 78, closed: 92 },
+  { dimension: 'Code Gen', open: 84, closed: 91 },
+  { dimension: 'Cost Efficiency', open: 88, closed: 32 },
+  { dimension: 'Data Sovereignty', open: 82, closed: 35 },
+  { dimension: 'Customization', open: 76, closed: 40 },
+  { dimension: 'Multilingual', open: 80, closed: 87 },
 ]
