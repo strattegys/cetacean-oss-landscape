@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/cetacean-oss-landscape/',
+  base: process.env.NODE_ENV === 'production' ? '/cetacean-oss-landscape/' : '/',
 })
