@@ -1,5 +1,6 @@
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts'
 import { spendGrowthData } from '../../data/chartData'
+import { tooltipStyle } from './chartStyles'
 
 export function SpendGrowthChart() {
   return (
@@ -14,7 +15,7 @@ export function SpendGrowthChart() {
         <XAxis dataKey="year" tick={{ fill: '#94a3b8', fontSize: 12 }} axisLine={false} tickLine={false} />
         <YAxis tick={{ fill: '#64748b', fontSize: 12 }} axisLine={false} tickLine={false} tickFormatter={v => `$${v}B`} />
         <Tooltip
-          contentStyle={{ background: '#051729', border: '1px solid rgba(14,116,144,0.2)', borderRadius: 8, color: '#e2e8f0' }}
+          contentStyle={tooltipStyle}
           formatter={(value) => [`$${value}B`, 'Spend']}
         />
         <ReferenceLine x="2026E" stroke="#f59e0b" strokeDasharray="4 4" label={{ value: 'You are here', position: 'top', fill: '#f59e0b', fontSize: 11 }} />

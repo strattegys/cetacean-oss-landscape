@@ -72,7 +72,7 @@ export function BookingSection() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3 mt-8">
-                <GlowButton href="https://cal.com/govind-davis-strattegys/cetacean-labs-open-source-ai-landscape">
+                <GlowButton href="https://cal.com/govind-davis-strattegys/cetacean-labs-oceanic-ai-swarm-poc">
                   Apply for Your Free 48-Hour Build
                 </GlowButton>
                 <GlowButton href="https://cetacean-oss.b2bcontentartist.com/" variant="secondary">

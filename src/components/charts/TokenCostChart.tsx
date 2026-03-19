@@ -1,5 +1,6 @@
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts'
 import { tokenCostData } from '../../data/chartData'
+import { tooltipStyle } from './chartStyles'
 
 export function TokenCostChart() {
   return (
@@ -8,7 +9,7 @@ export function TokenCostChart() {
         <XAxis type="number" tick={{ fill: '#64748b', fontSize: 12 }} axisLine={false} tickLine={false} />
         <YAxis type="category" dataKey="name" tick={{ fill: '#94a3b8', fontSize: 12 }} axisLine={false} tickLine={false} width={80} />
         <Tooltip
-          contentStyle={{ background: '#051729', border: '1px solid rgba(14,116,144,0.2)', borderRadius: 8, color: '#e2e8f0' }}
+          contentStyle={tooltipStyle}
           formatter={(value) => [`$${Number(value).toFixed(2)}/M tokens`, 'Cost']}
         />
         <Bar dataKey="cost" radius={[0, 4, 4, 0]} animationDuration={1500}>
