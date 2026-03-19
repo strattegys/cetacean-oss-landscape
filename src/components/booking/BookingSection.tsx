@@ -5,7 +5,7 @@ import { GlowButton } from '../shared/GlowButton'
 const steps = [
   { step: '01', label: 'You tell us your problem', desc: 'A 30-minute requirements call. What do your agents need to do? What data, what workflows, what outcomes?' },
   { step: '02', label: 'We build your agent swarm', desc: 'Our team goes to work immediately — designing, orchestrating, and deploying a multi-agent system tailored to your use case.' },
-  { step: '03', label: 'You get a working prototype', desc: 'Within 24 hours, you have a live, functional agent swarm POC solving your actual problem. Not a slide deck. Working software.' },
+  { step: '03', label: 'You get a working prototype', desc: 'Within 48 hours, you have a live, functional agent swarm POC solving your actual problem. Not a slide deck. Working software.' },
 ]
 
 export function BookingSection() {
@@ -17,8 +17,8 @@ export function BookingSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <SectionHeading
           eyebrow="LIMITED AVAILABILITY"
-          title="We'll Build Your Agent Swarm in 24 Hours. Free."
-          subtitle="This offer is worth millions in development costs — which is why we can't offer it to everyone. Qualified organizations get a working multi-agent prototype built in 24 hours, at zero cost. Apply now to see if you qualify."
+          title="We'll Build Your Agent Swarm in 48 Hours. Free."
+          subtitle="This offer is worth millions in development costs — which is why we can't offer it to everyone. Qualified organizations get a working multi-agent prototype built in 48 hours, at zero cost. Apply now to see if you qualify."
           eyebrowColor="text-amber-400"
         />
 
@@ -27,7 +27,7 @@ export function BookingSection() {
           <div className="rounded-2xl border border-emerald-500/20 bg-gradient-to-b from-emerald-500/5 to-ocean-800/30 p-8 md:p-10 mb-12 text-center">
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mb-6">
               <div className="text-center">
-                <span className="font-mono text-5xl md:text-6xl font-bold text-emerald-400">24h</span>
+                <span className="font-mono text-5xl md:text-6xl font-bold text-emerald-400">48h</span>
                 <p className="text-slate-400 text-sm mt-1">From call to prototype</p>
               </div>
               <div className="hidden md:block w-px h-16 bg-emerald-500/20" />
@@ -73,7 +73,7 @@ export function BookingSection() {
 
               <div className="flex flex-col sm:flex-row gap-3 mt-8">
                 <GlowButton href="https://cal.com/govind-davis-strattegys/cetacean-labs-open-source-ai-landscape">
-                  Apply for Your Free 24-Hour Build
+                  Apply for Your Free 48-Hour Build
                 </GlowButton>
                 <GlowButton href="https://cetacean-oss.b2bcontentartist.com/" variant="secondary">
                   Explore the AI Landscape Report
@@ -84,7 +84,7 @@ export function BookingSection() {
 
           <ScrollReveal delay={0.15}>
             <div className="rounded-xl border border-cyan-500/10 bg-ocean-800/30 p-6">
-              <h3 className="font-display text-lg font-bold text-white mb-4">What You Get in 24 Hours</h3>
+              <h3 className="font-display text-lg font-bold text-white mb-4">What You Get in 48 Hours</h3>
               <div className="space-y-3">
                 {[
                   'A working multi-agent swarm tailored to your specific use case',
@@ -112,7 +112,7 @@ export function BookingSection() {
                 </div>
                 <div className="flex items-center gap-2 text-xs text-slate-500">
                   <span className="w-2 h-2 rounded-full bg-emerald-400" />
-                  <span>24-hour delivery guaranteed or we keep building until it's done</span>
+                  <span>48-hour delivery guaranteed or we keep building until it's done</span>
                 </div>
               </div>
             </div>

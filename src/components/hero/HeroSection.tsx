@@ -53,7 +53,7 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.5 }}
         >
-          <GlowButton href="#booking">Get Your Free Agent Swarm in 24h</GlowButton>
+          <GlowButton href="#booking">Get Your Free Agent Swarm in 48h</GlowButton>
           <GlowButton href="#metrics" variant="secondary">See the Data</GlowButton>
         </motion.div>
 
