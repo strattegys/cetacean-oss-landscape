@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { GlowButton } from '../shared/GlowButton'
+import { Logo } from '../shared/Logo'
 
 const tickerItems = [
   '67% of enterprises have deployed hybrid AI stacks',
@@ -34,13 +35,7 @@ export function Navbar() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-400 to-teal-500 flex items-center justify-center">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round">
-              <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" />
-              <path d="M8 12c0-2.2 1.8-4 4-4s4 1.8 4 4" />
-              <path d="M12 16v-4" />
-            </svg>
-          </div>
+          <Logo />
           <span className="font-display font-bold text-white text-lg">Cetacean Labs</span>
           <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
             OSS AI 2026

@@ -140,18 +140,21 @@ export function AgentNetworkBackground() {
       raf = requestAnimationFrame(draw)
     }
 
-    resize()
-    initNodes()
-    initParticles()
-    draw()
-
-    window.addEventListener('resize', () => {
+    const handleResize = () => {
       resize()
       initNodes()
       initParticles()
-    })
+    }
 
-    return () => cancelAnimationFrame(raf)
+    handleResize()
+    draw()
+
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      cancelAnimationFrame(raf)
+      window.removeEventListener('resize', handleResize)
+    }
   }, [])
 
   return (
