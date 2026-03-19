@@ -15,8 +15,13 @@ export function GlowButton({ children, href, onClick, variant = 'primary', class
     : 'border border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/10 hover:border-cyan-500/50'
 
   if (href) {
+    const isExternal = href.startsWith('http')
     return (
-      <a href={href} className={cn(base, styles, className)}>
+      <a 
+        href={href} 
+        className={cn(base, styles, className)}
+        {...(isExternal && { target: '_blank', rel: 'noopener noreferrer' })}
+      >
         {children}
       </a>
     )
