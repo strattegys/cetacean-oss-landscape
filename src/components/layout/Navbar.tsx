@@ -49,7 +49,7 @@ export function Navbar() {
           <a href="#comparison" className="hover:text-cyan-400 transition-colors">Models</a>
         </div>
 
-        <GlowButton href="#booking" className="text-xs px-4 py-2">
+        <GlowButton href="https://cal.com/govind-davis-strattegys/cetacean-labs-oceanic-ai-swarm-poc" className="text-xs px-4 py-2">
           Book a Session
         </GlowButton>
       </div>
