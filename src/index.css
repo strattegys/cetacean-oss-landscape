@@ -25,6 +25,17 @@ body {
   overflow-x: hidden;
 }
 
+/* Ensure descenders (g, y, p, q, j) are never clipped */
+h1, h2, h3, h4, h5, h6, p, span, a, button, li {
+  overflow: visible;
+}
+
+/* Add extra line-height for display font headings */
+.font-display {
+  line-height: 1.3;
+  padding-bottom: 0.1em;
+}
+
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--color-ocean-950); }
 ::-webkit-scrollbar-thumb { background: #0e7490; border-radius: 4px; }
