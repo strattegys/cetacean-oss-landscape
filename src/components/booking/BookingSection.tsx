@@ -18,7 +18,7 @@ export function BookingSection() {
         <SectionHeading
           eyebrow="LIMITED AVAILABILITY"
           title="We'll Build Your Agent Swarm in 48 Hours. Free."
-          subtitle="This offer is worth millions in development costs — which is why we can't offer it to everyone. Qualified organizations get a working multi-agent prototype built in 48 hours, at zero cost. Apply now to see if you qualify."
+          subtitle="This offer represents enormous potential value — which is why we can't offer it to everyone. Qualified organizations get a working multi-agent prototype built in 48 hours, at zero cost. Apply now to see if you qualify."
           eyebrowColor="text-amber-400"
         />
 
@@ -50,7 +50,7 @@ export function BookingSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           <ScrollReveal>
             <div>
-              <h3 className="font-display text-2xl font-bold text-white mb-8">How It Works</h3>
+              <h3 className="font-display text-2xl font-bold text-white mb-8 leading-snug">How It Works</h3>
               <div className="space-y-6">
                 {steps.map((s, i) => (
                   <div key={i} className="flex gap-4">
@@ -67,7 +67,7 @@ export function BookingSection() {
 
               <div className="mt-8 rounded-xl border border-amber-500/20 bg-amber-500/5 p-4">
                 <p className="text-amber-400 text-sm font-medium">
-                  We only accept a limited number of builds per month. This offer represents millions in development value — delivered free to qualified organizations who are serious about deploying agents.
+                  We only accept a limited number of builds per month. This offer represents enormous potential value — delivered free to qualified organizations who are serious about deploying agents.
                 </p>
               </div>
 
@@ -84,7 +84,7 @@ export function BookingSection() {
 
           <ScrollReveal delay={0.15}>
             <div className="rounded-xl border border-cyan-500/10 bg-ocean-800/30 p-6">
-              <h3 className="font-display text-lg font-bold text-white mb-4">What You Get in 48 Hours</h3>
+              <h3 className="font-display text-lg font-bold text-white mb-4 leading-snug">What You Get in 48 Hours</h3>
               <div className="space-y-3">
                 {[
                   'A working multi-agent swarm tailored to your specific use case',

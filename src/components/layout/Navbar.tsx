@@ -25,7 +25,7 @@ export function Navbar() {
       <div className="bg-gradient-to-r from-cyan-900/40 via-teal-900/40 to-cyan-900/40 border-b border-cyan-500/10 overflow-hidden">
         <div className="flex whitespace-nowrap" style={{ animation: 'ticker-scroll 30s linear infinite' }}>
           {[...tickerItems, ...tickerItems].map((item, i) => (
-            <span key={i} className="inline-flex items-center gap-2 px-6 py-1.5 text-xs font-mono text-cyan-300/70">
+            <span key={i} className="inline-flex items-center gap-2 px-6 py-2 text-xs font-mono text-cyan-300/70 leading-normal">
               <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
               {item}
             </span>
