@@ -109,7 +109,7 @@ export function AgentWorkflowSection() {
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-8 text-center"
+                  className="mt-8 flex flex-col items-center"
                 >
                   <div className="inline-flex flex-col items-center gap-2 rounded-xl border border-amber-500/20 bg-amber-500/5 px-8 py-6">
                     <span className="font-mono text-3xl font-bold text-amber-400">3.2 seconds</span>
@@ -118,7 +118,7 @@ export function AgentWorkflowSection() {
                   </div>
                   <button
                     onClick={play}
-                    className="mt-12 px-6 py-2.5 rounded-lg border border-cyan-500/30 bg-cyan-500/10 text-sm text-cyan-400 hover:bg-cyan-500/20 hover:border-cyan-500/50 transition-all font-mono"
+                    className="mt-8 px-6 py-2.5 rounded-lg border border-cyan-500/30 bg-cyan-500/10 text-sm text-cyan-400 hover:bg-cyan-500/20 hover:border-cyan-500/50 transition-all font-mono"
                   >
                     Replay demo
                   </button>
