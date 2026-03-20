@@ -118,7 +118,7 @@ export function AgentWorkflowSection() {
                   </div>
                   <button
                     onClick={play}
-                    className="mt-4 text-xs text-cyan-400 hover:text-cyan-300 transition-colors font-mono"
+                    className="mt-8 px-6 py-2.5 rounded-lg border border-cyan-500/30 bg-cyan-500/10 text-sm text-cyan-400 hover:bg-cyan-500/20 hover:border-cyan-500/50 transition-all font-mono"
                   >
                     Replay demo
                   </button>
