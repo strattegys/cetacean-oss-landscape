@@ -7,7 +7,7 @@
   --color-ocean-700: #071e35;
   --color-ocean-600: #0a2a4a;
   --color-ocean-500: #0d3760;
-  --font-display: 'Syne', sans-serif;
+  --font-display: 'Inter', sans-serif;
   --font-body: 'DM Sans', sans-serif;
   --font-mono: 'DM Mono', monospace;
 }
@@ -24,6 +24,8 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
+
+
 
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--color-ocean-950); }

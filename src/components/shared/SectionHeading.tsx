@@ -13,7 +13,7 @@ export function SectionHeading({ eyebrow, title, subtitle, eyebrowColor = 'text-
       <span className={`font-mono text-xs tracking-[0.2em] uppercase ${eyebrowColor} block mb-4`}>
         {eyebrow}
       </span>
-      <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-snug">
+      <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
         {title}
       </h2>
       {subtitle && (

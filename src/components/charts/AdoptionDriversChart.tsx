@@ -1,11 +1,11 @@
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts'
 import { adoptionDriversData } from '../../data/chartData'
-import { tooltipStyle } from './chartStyles'
+import { tooltipStyle, tooltipLabelStyle, tooltipItemStyle } from './chartStyles'
 
 export function AdoptionDriversChart() {
   return (
     <div className="flex flex-col md:flex-row items-center gap-4">
-      <ResponsiveContainer width="100%" height={280}>
+      <ResponsiveContainer width="100%" height={320}>
         <PieChart>
           <Pie
             data={adoptionDriversData}
@@ -23,6 +23,8 @@ export function AdoptionDriversChart() {
           </Pie>
           <Tooltip
             contentStyle={tooltipStyle}
+            labelStyle={tooltipLabelStyle}
+            itemStyle={tooltipItemStyle}
             formatter={(value) => [`${value}%`, 'Share']}
           />
         </PieChart>

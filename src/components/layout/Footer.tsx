@@ -16,7 +16,6 @@ export function Footer() {
           <div className="flex items-center gap-6 text-sm text-slate-500">
             <a href="https://oceanicai.io" target="_blank" rel="noopener" className="hover:text-cyan-400 transition-colors">OceanicAI</a>
             <a href="https://cetaceanlabs.com" target="_blank" rel="noopener" className="hover:text-cyan-400 transition-colors">Cetacean Labs</a>
-            <a href="https://www.strattegys.com/are-you-paying-attention-to-attention-is-all-you-need/" target="_blank" rel="noopener" className="hover:text-cyan-400 transition-colors">Research</a>
           </div>
 
           <p className="text-xs text-slate-600">
