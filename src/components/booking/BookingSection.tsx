@@ -18,7 +18,7 @@ export function BookingSection() {
         <SectionHeading
           eyebrow="LIMITED AVAILABILITY"
           title="We'll Build Your Agent Swarm in 48 Hours. Free."
-          subtitle="This offer is worth millions in development costs — which is why we can't offer it to everyone. Qualified organizations get a working multi-agent prototype built in 48 hours, at zero cost. Apply now to see if you qualify."
+          subtitle="This offer represents enormous potential value — which is why we can't offer it to everyone. Qualified organizations get a working multi-agent prototype built in 48 hours, at zero cost. Apply now to see if you qualify."
           eyebrowColor="text-amber-400"
         />
 
@@ -67,7 +67,7 @@ export function BookingSection() {
 
               <div className="mt-8 rounded-xl border border-amber-500/20 bg-amber-500/5 p-4">
                 <p className="text-amber-400 text-sm font-medium">
-                  We only accept a limited number of builds per month. This offer represents millions in development value — delivered free to qualified organizations who are serious about deploying agents.
+                  We only accept a limited number of builds per month. This offer represents enormous potential value — delivered free to qualified organizations who are serious about deploying agents.
                 </p>
               </div>
 
