@@ -5,7 +5,7 @@ import { tooltipStyle } from './chartStyles'
 export function AdoptionDriversChart() {
   return (
     <div className="flex flex-col md:flex-row items-center gap-4">
-      <ResponsiveContainer width="100%" height={280}>
+      <ResponsiveContainer width="100%" height={320}>
         <PieChart>
           <Pie
             data={adoptionDriversData}
