@@ -15,6 +15,7 @@ export function ScrollReveal({ children, delay = 0, className }: Props) {
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.6, delay, ease: 'easeOut' }}
       className={className}
+      style={{ overflow: 'visible' }}
     >
       {children}
     </motion.div>

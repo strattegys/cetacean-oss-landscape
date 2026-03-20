@@ -26,14 +26,21 @@ body {
 }
 
 /* Ensure descenders (g, y, p, q, j) are never clipped */
-h1, h2, h3, h4, h5, h6, p, span, a, button, li {
-  overflow: visible;
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Add extra line-height for display font headings */
+h1, h2, h3, h4, h5, h6, p, span, a, button, li {
+  overflow: visible !important;
+}
+
+/* Syne font has deep descenders - ensure they're never clipped */
 .font-display {
-  line-height: 1.3;
-  padding-bottom: 0.1em;
+  line-height: 1.4 !important;
+  padding-bottom: 0.15em !important;
+  overflow: visible !important;
+  display: inline-block;
 }
 
 ::-webkit-scrollbar { width: 8px; }
