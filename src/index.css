@@ -7,7 +7,7 @@
   --color-ocean-700: #071e35;
   --color-ocean-600: #0a2a4a;
   --color-ocean-500: #0d3760;
-  --font-display: 'Syne', sans-serif;
+  --font-display: 'Inter', sans-serif;
   --font-body: 'DM Sans', sans-serif;
   --font-mono: 'DM Mono', monospace;
 }
@@ -25,23 +25,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Ensure descenders (g, y, p, q, j) are never clipped */
-* {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-}
 
-h1, h2, h3, h4, h5, h6, p, span, a, button, li {
-  overflow: visible !important;
-}
-
-/* Syne font has deep descenders - ensure they're never clipped */
-.font-display {
-  line-height: 1.4 !important;
-  padding-bottom: 0.15em !important;
-  overflow: visible !important;
-  display: inline-block;
-}
 
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--color-ocean-950); }
