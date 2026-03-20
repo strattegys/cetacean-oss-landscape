@@ -25,7 +25,7 @@ export function HeroSection() {
         </motion.div>
 
         <motion.h1
-          className="font-display text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-[1.15] mb-6"
+          className="font-display text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-[1.2] mb-6"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.15 }}

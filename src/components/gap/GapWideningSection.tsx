@@ -59,7 +59,7 @@ export function GapWideningSection() {
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-slate-400 text-sm max-w-lg mx-auto">
+            <p className="text-slate-400 text-sm max-w-lg mx-auto leading-relaxed">
               In 2024, 18% of Fortune 500 AI leaders had deployed hybrid stacks.
               Today it's 67%. <span className="text-rose-400 font-semibold">The window for first-mover advantage is closing.</span>
             </p>

@@ -50,7 +50,7 @@ export function BookingSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           <ScrollReveal>
             <div>
-              <h3 className="font-display text-2xl font-bold text-white mb-8">How It Works</h3>
+              <h3 className="font-display text-2xl font-bold text-white mb-8 leading-snug">How It Works</h3>
               <div className="space-y-6">
                 {steps.map((s, i) => (
                   <div key={i} className="flex gap-4">
@@ -84,7 +84,7 @@ export function BookingSection() {
 
           <ScrollReveal delay={0.15}>
             <div className="rounded-xl border border-cyan-500/10 bg-ocean-800/30 p-6">
-              <h3 className="font-display text-lg font-bold text-white mb-4">What You Get in 48 Hours</h3>
+              <h3 className="font-display text-lg font-bold text-white mb-4 leading-snug">What You Get in 48 Hours</h3>
               <div className="space-y-3">
                 {[
                   'A working multi-agent swarm tailored to your specific use case',

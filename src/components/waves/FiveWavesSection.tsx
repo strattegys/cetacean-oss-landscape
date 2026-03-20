@@ -14,8 +14,8 @@ function WaveCard({ wave, index }: { wave: Wave; index: number }) {
             {wave.category}
           </span>
         </div>
-        <h3 className="font-display text-lg font-bold text-white mb-2">{wave.title}</h3>
-        <p className="text-rose-400/90 text-sm font-medium mb-3 italic">{wave.urgency}</p>
+        <h3 className="font-display text-lg font-bold text-white mb-2 leading-snug">{wave.title}</h3>
+        <p className="text-rose-400/90 text-sm font-medium mb-3 italic leading-normal">{wave.urgency}</p>
         <p className="text-slate-400 text-sm leading-relaxed">{wave.description}</p>
       </div>
     </ScrollReveal>
